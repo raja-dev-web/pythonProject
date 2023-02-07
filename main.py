@@ -8,7 +8,7 @@ class Item:
         self.name = name
         self.price_unit = price_unit
         self.quantity = quantity
-        # print("Item Created")
+        print("Item Created")
         Item.all.append(self)
 
     def calculate_total_price(self):
