@@ -1,8 +1,6 @@
 from item import Item
-from mobile import Mobile
+# from mobile import Mobile
 
 
-print(Item.calculate_total_price())
+Item.instantiate_from_csv()
 print(Item.all)
-
-

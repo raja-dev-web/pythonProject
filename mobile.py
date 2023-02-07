@@ -13,7 +13,7 @@ class Mobile(Item):
         # Mobile.all.append(self)
 
 
-mobile1 = Mobile("samsung", 8000, 3, 1)
+# mobile1 = Mobile("samsung", 8000, 3, 1)
 # print(mobile1.calculate_total_price())
-print(Item.all)
-print(Mobile.all)
+# print(Item.all)
+# print(Mobile.all)
